@@ -13,10 +13,7 @@
 		2143CA0920E7BDA900AFB745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2143CA0220E7BDA800AFB745 /* Main.storyboard */; };
 		2143CA0A20E7BDA900AFB745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA0420E7BDA800AFB745 /* AppDelegate.m */; };
 		2143CA0B20E7BDA900AFB745 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA0620E7BDA900AFB745 /* ViewController.m */; };
-		2143CA2920E7C59600AFB745 /* multi_path_sploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA1220E7C59600AFB745 /* multi_path_sploit.c */; };
-		2143CA2A20E7C59600AFB745 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2143CA1620E7C59600AFB745 /* README */; };
 		2143CA2B20E7C59600AFB745 /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA1820E7C59600AFB745 /* offsets.m */; };
-		2143CA2C20E7C59600AFB745 /* vfs_sploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA1920E7C59600AFB745 /* vfs_sploit.c */; };
 		2143CA2D20E7C59600AFB745 /* kmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA1A20E7C59600AFB745 /* kmem.c */; };
 		2143CA2E20E7C59600AFB745 /* kutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA1F20E7C59600AFB745 /* kutils.c */; };
 		2143CA2F20E7C59600AFB745 /* nonce.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA2020E7C59600AFB745 /* nonce.c */; };
@@ -26,6 +23,20 @@
 		2143CA3320E7C59600AFB745 /* patchfinder64.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA2820E7C59600AFB745 /* patchfinder64.c */; };
 		2143CA3620E7C5FA00AFB745 /* noncereboot.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA3520E7C5FA00AFB745 /* noncereboot.c */; };
 		2143CA3920E7C80D00AFB745 /* unlocknvram.c in Sources */ = {isa = PBXBuildFile; fileRef = 2143CA3720E7C80D00AFB745 /* unlocknvram.c */; };
+		736424982201815C0029FD97 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 7364247F2201815C0029FD97 /* log.c */; };
+		736424992201815C0029FD97 /* parameters.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424802201815C0029FD97 /* parameters.c */; };
+		7364249A2201815C0029FD97 /* platform_match.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424812201815C0029FD97 /* platform_match.c */; };
+		7364249F2201815C0029FD97 /* platform.c in Sources */ = {isa = PBXBuildFile; fileRef = 7364248C2201815C0029FD97 /* platform.c */; };
+		736424A02201815C0029FD97 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7364248E2201815C0029FD97 /* README */; };
+		736424A12201815C0029FD97 /* kernel_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424922201815C0029FD97 /* kernel_memory.c */; };
+		736424A22201815C0029FD97 /* voucher_swap.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424942201815C0029FD97 /* voucher_swap.c */; };
+		736424A32201815C0029FD97 /* kernel_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424952201815C0029FD97 /* kernel_alloc.c */; };
+		736424A42201815C0029FD97 /* kernel_slide.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424962201815C0029FD97 /* kernel_slide.c */; };
+		736424AB220182970029FD97 /* voucher_swap.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424AA220182970029FD97 /* voucher_swap.c */; };
+		736424B322018DCD0029FD97 /* user_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424AE22018DCD0029FD97 /* user_client.c */; };
+		736424B422018DCD0029FD97 /* kc_parameters.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424AF22018DCD0029FD97 /* kc_parameters.c */; };
+		736424B522018DCD0029FD97 /* pac.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424B022018DCD0029FD97 /* pac.c */; };
+		736424B722018F1A0029FD97 /* kernel_call.c in Sources */ = {isa = PBXBuildFile; fileRef = 736424B622018F1A0029FD97 /* kernel_call.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +51,9 @@
 		2143CA0620E7BDA900AFB745 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2143CA0720E7BDA900AFB745 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2143CA1020E7C59600AFB745 /* IOKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKit.h; sourceTree = "<group>"; };
-		2143CA1220E7C59600AFB745 /* multi_path_sploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = multi_path_sploit.c; sourceTree = "<group>"; };
 		2143CA1320E7C59600AFB745 /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
-		2143CA1420E7C59600AFB745 /* vfs_sploit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vfs_sploit.h; sourceTree = "<group>"; };
 		2143CA1520E7C59600AFB745 /* kmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kmem.h; sourceTree = "<group>"; };
-		2143CA1620E7C59600AFB745 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		2143CA1720E7C59600AFB745 /* multi_path_sploit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi_path_sploit.h; sourceTree = "<group>"; };
 		2143CA1820E7C59600AFB745 /* offsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = offsets.m; sourceTree = "<group>"; };
-		2143CA1920E7C59600AFB745 /* vfs_sploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vfs_sploit.c; sourceTree = "<group>"; };
 		2143CA1A20E7C59600AFB745 /* kmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kmem.c; sourceTree = "<group>"; };
 		2143CA1C20E7C59600AFB745 /* patchfinder64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patchfinder64.h; sourceTree = "<group>"; };
 		2143CA1E20E7C59600AFB745 /* exploit_additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exploit_additions.h; sourceTree = "<group>"; };
@@ -65,6 +71,36 @@
 		2143CA3520E7C5FA00AFB745 /* noncereboot.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = noncereboot.c; sourceTree = "<group>"; };
 		2143CA3720E7C80D00AFB745 /* unlocknvram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unlocknvram.c; sourceTree = "<group>"; };
 		2143CA3820E7C80D00AFB745 /* unlocknvram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unlocknvram.h; sourceTree = "<group>"; };
+		7364247E2201815C0029FD97 /* kernel_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel_memory.h; sourceTree = "<group>"; };
+		7364247F2201815C0029FD97 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		736424802201815C0029FD97 /* parameters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parameters.c; sourceTree = "<group>"; };
+		736424812201815C0029FD97 /* platform_match.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = platform_match.c; sourceTree = "<group>"; };
+		7364248A2201815C0029FD97 /* voucher_swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voucher_swap.h; sourceTree = "<group>"; };
+		7364248B2201815C0029FD97 /* kernel_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel_alloc.h; sourceTree = "<group>"; };
+		7364248C2201815C0029FD97 /* platform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = platform.c; sourceTree = "<group>"; };
+		7364248D2201815C0029FD97 /* kernel_slide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel_slide.h; sourceTree = "<group>"; };
+		7364248E2201815C0029FD97 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		7364248F2201815C0029FD97 /* kernel_call.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel_call.h; sourceTree = "<group>"; };
+		736424902201815C0029FD97 /* platform_match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform_match.h; sourceTree = "<group>"; };
+		736424912201815C0029FD97 /* parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parameters.h; sourceTree = "<group>"; };
+		736424922201815C0029FD97 /* kernel_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kernel_memory.c; sourceTree = "<group>"; };
+		736424932201815C0029FD97 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		736424942201815C0029FD97 /* voucher_swap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = voucher_swap.c; sourceTree = "<group>"; };
+		736424952201815C0029FD97 /* kernel_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kernel_alloc.c; sourceTree = "<group>"; };
+		736424962201815C0029FD97 /* kernel_slide.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kernel_slide.c; sourceTree = "<group>"; };
+		736424972201815C0029FD97 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		736424A6220182460029FD97 /* ipc_port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipc_port.h; sourceTree = "<group>"; };
+		736424A7220182460029FD97 /* IOKitLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKitLib.h; sourceTree = "<group>"; };
+		736424A8220182460029FD97 /* mach_vm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_vm.h; sourceTree = "<group>"; };
+		736424A9220182970029FD97 /* voucher_swap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voucher_swap.h; sourceTree = "<group>"; };
+		736424AA220182970029FD97 /* voucher_swap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = voucher_swap.c; sourceTree = "<group>"; };
+		736424AD22018DCD0029FD97 /* pac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pac.h; sourceTree = "<group>"; };
+		736424AE22018DCD0029FD97 /* user_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = user_client.c; sourceTree = "<group>"; };
+		736424AF22018DCD0029FD97 /* kc_parameters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kc_parameters.c; sourceTree = "<group>"; };
+		736424B022018DCD0029FD97 /* pac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pac.c; sourceTree = "<group>"; };
+		736424B122018DCD0029FD97 /* user_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user_client.h; sourceTree = "<group>"; };
+		736424B222018DCD0029FD97 /* kc_parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kc_parameters.h; sourceTree = "<group>"; };
+		736424B622018F1A0029FD97 /* kernel_call.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kernel_call.c; path = noncereboot1131UI/exploit/voucher_swap/kernel_call.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +117,7 @@
 		2143C9DC20E7BD6900AFB745 = {
 			isa = PBXGroup;
 			children = (
+				736424B622018F1A0029FD97 /* kernel_call.c */,
 				2143C9E720E7BD6900AFB745 /* noncereboot1131UI */,
 				2143C9E620E7BD6900AFB745 /* Products */,
 			);
@@ -140,14 +177,12 @@
 		2143CA1120E7C59600AFB745 /* exploit */ = {
 			isa = PBXGroup;
 			children = (
-				2143CA1220E7C59600AFB745 /* multi_path_sploit.c */,
+				736424A9220182970029FD97 /* voucher_swap.h */,
+				736424AA220182970029FD97 /* voucher_swap.c */,
+				7364247D2201815C0029FD97 /* voucher_swap */,
 				2143CA1320E7C59600AFB745 /* offsets.h */,
-				2143CA1420E7C59600AFB745 /* vfs_sploit.h */,
 				2143CA1520E7C59600AFB745 /* kmem.h */,
-				2143CA1620E7C59600AFB745 /* README */,
-				2143CA1720E7C59600AFB745 /* multi_path_sploit.h */,
 				2143CA1820E7C59600AFB745 /* offsets.m */,
-				2143CA1920E7C59600AFB745 /* vfs_sploit.c */,
 				2143CA1A20E7C59600AFB745 /* kmem.c */,
 			);
 			path = exploit;
@@ -184,6 +219,56 @@
 			path = utilities;
 			sourceTree = "<group>";
 		};
+		7364247D2201815C0029FD97 /* voucher_swap */ = {
+			isa = PBXGroup;
+			children = (
+				736424AC22018DCD0029FD97 /* kernel_call */,
+				736424A5220182460029FD97 /* headers */,
+				7364247E2201815C0029FD97 /* kernel_memory.h */,
+				7364247F2201815C0029FD97 /* log.c */,
+				736424802201815C0029FD97 /* parameters.c */,
+				736424812201815C0029FD97 /* platform_match.c */,
+				7364248A2201815C0029FD97 /* voucher_swap.h */,
+				7364248B2201815C0029FD97 /* kernel_alloc.h */,
+				7364248C2201815C0029FD97 /* platform.c */,
+				7364248D2201815C0029FD97 /* kernel_slide.h */,
+				7364248E2201815C0029FD97 /* README */,
+				7364248F2201815C0029FD97 /* kernel_call.h */,
+				736424902201815C0029FD97 /* platform_match.h */,
+				736424912201815C0029FD97 /* parameters.h */,
+				736424922201815C0029FD97 /* kernel_memory.c */,
+				736424932201815C0029FD97 /* log.h */,
+				736424942201815C0029FD97 /* voucher_swap.c */,
+				736424952201815C0029FD97 /* kernel_alloc.c */,
+				736424962201815C0029FD97 /* kernel_slide.c */,
+				736424972201815C0029FD97 /* platform.h */,
+			);
+			path = voucher_swap;
+			sourceTree = "<group>";
+		};
+		736424A5220182460029FD97 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				736424A6220182460029FD97 /* ipc_port.h */,
+				736424A7220182460029FD97 /* IOKitLib.h */,
+				736424A8220182460029FD97 /* mach_vm.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		736424AC22018DCD0029FD97 /* kernel_call */ = {
+			isa = PBXGroup;
+			children = (
+				736424AD22018DCD0029FD97 /* pac.h */,
+				736424AE22018DCD0029FD97 /* user_client.c */,
+				736424AF22018DCD0029FD97 /* kc_parameters.c */,
+				736424B022018DCD0029FD97 /* pac.c */,
+				736424B122018DCD0029FD97 /* user_client.h */,
+				736424B222018DCD0029FD97 /* kc_parameters.h */,
+			);
+			path = kernel_call;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,6 +300,11 @@
 				TargetAttributes = {
 					2143C9E420E7BD6900AFB745 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Multipath = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -241,7 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2143CA2A20E7C59600AFB745 /* README in Resources */,
+				736424A02201815C0029FD97 /* README in Resources */,
 				2143CA0920E7BDA900AFB745 /* Main.storyboard in Resources */,
 				2143C9F220E7BD6A00AFB745 /* Assets.xcassets in Resources */,
 				2143CA0820E7BDA900AFB745 /* LaunchScreen.storyboard in Resources */,
@@ -256,20 +346,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				2143CA3620E7C5FA00AFB745 /* noncereboot.c in Sources */,
+				736424AB220182970029FD97 /* voucher_swap.c in Sources */,
+				736424A12201815C0029FD97 /* kernel_memory.c in Sources */,
+				736424992201815C0029FD97 /* parameters.c in Sources */,
+				7364249A2201815C0029FD97 /* platform_match.c in Sources */,
 				2143CA2D20E7C59600AFB745 /* kmem.c in Sources */,
+				7364249F2201815C0029FD97 /* platform.c in Sources */,
 				2143CA3220E7C59600AFB745 /* kexecute.c in Sources */,
 				2143CA2B20E7C59600AFB745 /* offsets.m in Sources */,
+				736424982201815C0029FD97 /* log.c in Sources */,
 				2143CA0B20E7BDA900AFB745 /* ViewController.m in Sources */,
+				736424A22201815C0029FD97 /* voucher_swap.c in Sources */,
+				736424B722018F1A0029FD97 /* kernel_call.c in Sources */,
 				2143CA3120E7C59600AFB745 /* exploit_additions.c in Sources */,
-				2143CA2C20E7C59600AFB745 /* vfs_sploit.c in Sources */,
-				2143CA2920E7C59600AFB745 /* multi_path_sploit.c in Sources */,
+				736424B322018DCD0029FD97 /* user_client.c in Sources */,
 				2143CA2E20E7C59600AFB745 /* kutils.c in Sources */,
+				736424B522018DCD0029FD97 /* pac.c in Sources */,
 				2143CA2F20E7C59600AFB745 /* nonce.c in Sources */,
 				2143CA3320E7C59600AFB745 /* patchfinder64.c in Sources */,
+				736424B422018DCD0029FD97 /* kc_parameters.c in Sources */,
+				736424A32201815C0029FD97 /* kernel_alloc.c in Sources */,
 				2143CA3920E7C80D00AFB745 /* unlocknvram.c in Sources */,
 				2143CA0A20E7BDA900AFB745 /* AppDelegate.m in Sources */,
 				2143C9F820E7BD6A00AFB745 /* main.m in Sources */,
 				2143CA3020E7C59600AFB745 /* offsetof.c in Sources */,
+				736424A42201815C0029FD97 /* kernel_slide.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,13 +510,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = noncereboot1131UI/noncereboot1131.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7484QG5T7P;
 				ENABLE_BITCODE = NO;
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "exploit/voucher_swap/kernel_call exploit/voucher_swap/ exploit/voucher_swap/headers";
 				INFOPLIST_FILE = noncereboot1131UI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,7 +526,7 @@
 					"-framework",
 					IOKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pwn20wnd.noncereboot1131UI;
+				PRODUCT_BUNDLE_IDENTIFIER = me.umangis.com.pwn20wnd.noncereboot12xx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,13 +537,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = noncereboot1131UI/noncereboot1131.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7484QG5T7P;
 				ENABLE_BITCODE = NO;
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "exploit/voucher_swap/kernel_call exploit/voucher_swap/ exploit/voucher_swap/headers";
 				INFOPLIST_FILE = noncereboot1131UI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +553,7 @@
 					"-framework",
 					IOKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pwn20wnd.noncereboot1131UI;
+				PRODUCT_BUNDLE_IDENTIFIER = me.umangis.com.pwn20wnd.noncereboot12xx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -7,13 +7,12 @@
 //
 
 #import "ViewController.h"
-#include "multi_path_sploit.h"
-#include "vfs_sploit.h"
 #include "offsets.h"
 #include "noncereboot.h"
 #include "kmem.h"
 #include "unlocknvram.h"
 #include "nonce.h"
+#include "voucher_swap.h"
 
 @interface ViewController ()
 
@@ -51,15 +50,11 @@
         }
     }
     dispatch_async(dispatch_get_main_queue(), ^{
-        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:localize(@"Please wait (1/3)") message:localize(@"Starting noncereboot1131") preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:localize(@"Please wait (1/3)") message:localize(@"Starting noncereboot12xx") preferredStyle:UIAlertControllerStyleAlert];
         [self presentViewController:alertController animated:YES completion:nil];
     });
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0ul), ^{
-#if WANT_VFS
-        int exploitstatus = vfs_sploit();
-#else /* !WANT_VFS */
-        int exploitstatus = multi_path_go();
-#endif /* !WANT_VFS */
+        int exploitstatus = voucher_swap_go();
         
         switch (exploitstatus) {
             case ERR_NOERR: {
@@ -121,7 +116,7 @@
                 break;
             }
         }
-        bool ret = dump_apticket([[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"apticket.der"].UTF8String);
+        dump_apticket([[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"apticket.der"].UTF8String);
         [self dismissViewControllerAnimated:YES completion:nil];
     });
 }
